@@ -1,0 +1,22 @@
+{
+    "name": "barry/hyperf-rebuild-learn",
+    "authors": [
+        {
+            "name": "zhengpc",
+            "email": "barry_zpc@163.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.4",
+        "symfony/finder": "^4.4"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Rebuild\\": "src/"
+        }
+    }
+}
